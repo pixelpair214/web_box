@@ -1,0 +1,1612 @@
+{
+  "coding": [
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 4.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-07,
+        "output": 8.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.5e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 4.05e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-06,
+        "output": 8.7e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 4.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-07,
+        "output": 8.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.5e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 4.05e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-06,
+        "output": 8.7e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 4.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-07,
+        "output": 8.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.5e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 4.05e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-06,
+        "output": 8.7e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 4.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-07,
+        "output": 8.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.5e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 4.05e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-06,
+        "output": 8.7e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.4e-07,
+        "output": 2.8e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 4.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-07,
+        "output": 8.7e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.5e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 4.05e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4.35e-06,
+        "output": 8.7e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ]
+}

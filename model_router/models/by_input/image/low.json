@@ -1,0 +1,252 @@
+{
+  "coding": [
+    {
+      "id": "openai/gpt-5.4-nano",
+      "score": 44,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.08e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.6e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "openai/gpt-5.4-nano",
+      "score": 44,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.08e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.6e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "openai/gpt-5.4-nano",
+      "score": 44,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.08e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.6e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "openai/gpt-5.4-nano",
+      "score": 44,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.08e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.6e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "openai/gpt-5.4-nano",
+      "score": 44,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.08e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "score": 42,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2.6e-07,
+        "output": 2.6e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ]
+}

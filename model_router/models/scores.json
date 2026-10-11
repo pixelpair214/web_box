@@ -1,0 +1,170 @@
+{
+  "_note": "Artificial Analysis Intelligence Index values (max reasoning effort) taken from aggregator pages, blogs and posts quoting it. Snapshots and index versions differ and scores move between them, so treat as a rough guide. basis=estimate means only a bound is known. Replace with your own test scores.",
+  "scores": {
+    "anthropic/claude-opus-5": {
+      "score": 63,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "anthropic/claude-fable-5": {
+      "score": 59.9,
+      "snapshot": "2026-07",
+      "basis": "benchmark"
+    },
+    "openai/gpt-5.6-sol": {
+      "score": 59,
+      "snapshot": "2026-08",
+      "basis": "benchmark"
+    },
+    "google/gemini-3.1-pro-preview": {
+      "score": 57,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "openai/gpt-5.4": {
+      "score": 57,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "openai/gpt-5.3-codex": {
+      "score": 54,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "anthropic/claude-opus-4.6": {
+      "score": 53,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "score": 52,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "z-ai/glm-5.2": {
+      "score": 53,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "z-ai/glm-5": {
+      "score": 50,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "minimax/minimax-m2.7": {
+      "score": 50,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "x-ai/grok-4.20": {
+      "score": 48,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "openai/gpt-5.4-mini": {
+      "score": 48,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "moonshotai/kimi-k2.5": {
+      "score": 47,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "z-ai/glm-5-turbo": {
+      "score": 47,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "google/gemini-3-flash-preview": {
+      "score": 46,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "qwen/qwen3.5-397b-a17b": {
+      "score": 45,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "openai/gpt-5.4-nano": {
+      "score": 44,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "qwen/qwen3.5-27b": {
+      "score": 42,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "deepseek/deepseek-v3.2": {
+      "score": 42,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "qwen/qwen3.5-122b-a10b": {
+      "score": 42,
+      "snapshot": "2026-03",
+      "basis": "benchmark"
+    },
+    "moonshotai/kimi-k3": {
+      "score": 60,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "z-ai/glm-5.3-flash": {
+      "score": 57,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "openai/gpt-5.6-terra": {
+      "score": 57,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "score": 53,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "qwen/qwen3.8-27b": {
+      "score": 52,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "openai/gpt-5.6-luna": {
+      "score": 52,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "deepseek/deepseek-v4-flash-0731": {
+      "score": 50,
+      "snapshot": "2026-09",
+      "basis": "benchmark",
+      "source": "blog/social posts quoting Artificial Analysis"
+    },
+    "x-ai/grok-4.5": {
+      "score": 51,
+      "snapshot": "2026-09",
+      "basis": "estimate",
+      "source": "only known to score above 50 (floor)"
+    },
+    "google/gemini-3.6-flash": {
+      "score": 51,
+      "snapshot": "2026-09",
+      "basis": "estimate",
+      "source": "only known to score above 50 (floor)"
+    }
+  },
+  "tier_thresholds": {
+    "high": 50,
+    "medium": 45
+  }
+}

@@ -1,0 +1,6384 @@
+{
+  "coding": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-08,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-saba",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 6e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/codestral-2508",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 9e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 1.5e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "low",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 9.5e-07,
+        "output": 4e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o3-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-large-2407",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-max",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 7.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 8e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "none",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-06,
+        "output": 2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "xhigh",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 6e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 7.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-05,
+        "output": 8e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 0.00012
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.1e-05,
+        "output": 0.000168
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 0.00015,
+        "output": 0.0006
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-08,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "low",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 9.5e-07,
+        "output": 4e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o3-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "sakana/fugu-max",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 7.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 8e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "none",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-06,
+        "output": 2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "xhigh",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 6e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 7.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-05,
+        "output": 8e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 0.00012
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.1e-05,
+        "output": 0.000168
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 0.00015,
+        "output": 0.0006
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-08,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-saba",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 6e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/codestral-2508",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 9e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 1.5e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "low",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 9.5e-07,
+        "output": 4e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o3-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-large-2407",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-max",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 7.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 8e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "none",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-06,
+        "output": 2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "xhigh",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 6e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 7.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-05,
+        "output": 8e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 0.00012
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.1e-05,
+        "output": 0.000168
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 3e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-08,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-saba",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 6e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/codestral-2508",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 9e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 1.5e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "low",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 9.5e-07,
+        "output": 4e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o3-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mistral-large-2407",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-max",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 7.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 8e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "none",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-06,
+        "output": 2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "xhigh",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 6e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 7.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-05,
+        "output": 8e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 0.00012
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.1e-05,
+        "output": 0.000168
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 0.00015,
+        "output": 0.0006
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 2e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-08,
+        "output": 4e-07
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/codestral-2508",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 9e-07
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-07,
+        "output": 1.2e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 1.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 1.5e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-07,
+        "output": 2e-06
+      },
+      "effort": null
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.5e-07,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 2e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-07,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "minimal",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 2.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "low",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 9.5e-07,
+        "output": 4e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 4.25e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o3-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o4-mini",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.1e-06,
+        "output": 4.4e-06
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-06,
+        "output": 5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "sakana/fugu-max",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 6e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 7.5e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "none"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 8e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-06,
+        "output": 9e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.25e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "none",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.75e-06,
+        "output": 1.4e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-06,
+        "output": 1.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 4e-06,
+        "output": 2e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 2.5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": null
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 5e-06,
+        "output": 3e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high"
+        ],
+        "default": "xhigh",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1e-05,
+        "output": 5e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 6e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 7.5e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/o3-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2e-05,
+        "output": 8e-05
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 1.5e-05,
+        "output": 0.00012
+      },
+      "effort": {
+        "supported": [
+          "high"
+        ],
+        "default": "high",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 2.1e-05,
+        "output": 0.000168
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 3e-05,
+        "output": 0.00018
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "high",
+          "medium"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "openai/o1-pro",
+      "score": null,
+      "basis": null,
+      "price_per_token": {
+        "input": 0.00015,
+        "output": 0.0006
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ]
+}

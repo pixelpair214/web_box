@@ -1,0 +1,16 @@
+{
+  "tier": "high",
+  "default_task": "chat",
+  "effort": {
+    "coding": "high",
+    "reasoning": "high",
+    "agentic": "medium",
+    "chat": "low"
+  },
+  "exclude": [
+    ":batch",
+    ":free",
+    "~",
+    "openai/gpt-4"
+  ]
+}

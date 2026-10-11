@@ -1,0 +1,46 @@
+[
+  {
+    "id": "google/lyria-3-clip-preview",
+    "score": null,
+    "basis": null,
+    "price_per_token": {
+      "input": 0.0,
+      "output": 0.0
+    },
+    "effort": null
+  },
+  {
+    "id": "google/lyria-3-pro-preview",
+    "score": null,
+    "basis": null,
+    "price_per_token": {
+      "input": 0.0,
+      "output": 0.0
+    },
+    "effort": null
+  },
+  {
+    "id": "openai/gpt-audio-mini",
+    "score": null,
+    "basis": null,
+    "price_per_token": {
+      "input": 6e-07,
+      "output": 2.4e-06,
+      "audio_input": 6e-07,
+      "audio_output": 2.4e-06
+    },
+    "effort": null
+  },
+  {
+    "id": "openai/gpt-audio",
+    "score": null,
+    "basis": null,
+    "price_per_token": {
+      "input": 2.5e-06,
+      "output": 1e-05,
+      "audio_input": 3.2e-05,
+      "audio_output": 6.4e-05
+    },
+    "effort": null
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "coding": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    }
+  ]
+}

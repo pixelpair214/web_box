@@ -1,0 +1,467 @@
+{
+  "coding": [
+    {
+      "id": "moonshotai/kimi-k3",
+      "score": 60,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 6.4e-07,
+        "output": 1.35e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "score": 52,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 4.25e-07,
+        "output": 2.55e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default": "xhigh",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "score": 51,
+      "basis": "estimate",
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "moonshotai/kimi-k3",
+      "score": 60,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 6.4e-07,
+        "output": 1.35e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "score": 52,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 4.25e-07,
+        "output": 2.55e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default": "xhigh",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "score": 51,
+      "basis": "estimate",
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "moonshotai/kimi-k3",
+      "score": 60,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 6.4e-07,
+        "output": 1.35e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "score": 52,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 4.25e-07,
+        "output": 2.55e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default": "xhigh",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "score": 51,
+      "basis": "estimate",
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "moonshotai/kimi-k3",
+      "score": 60,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 6.4e-07,
+        "output": 1.35e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "score": 52,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 4.25e-07,
+        "output": 2.55e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default": "xhigh",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "score": 51,
+      "basis": "estimate",
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "moonshotai/kimi-k3",
+      "score": 60,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 6.4e-07,
+        "output": 1.35e-05
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 1.5e-07,
+        "output": 5e-07
+      },
+      "effort": {
+        "supported": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default": "max",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "score": 57,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 2e-06,
+        "output": 1.2e-05
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "score": 52,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 4.25e-07,
+        "output": 2.55e-06
+      },
+      "effort": {
+        "supported": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default": "xhigh",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "score": 51,
+      "basis": "estimate",
+      "price_per_token": {
+        "input": 7.5e-07,
+        "output": 3.75e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": true
+      }
+    }
+  ]
+}

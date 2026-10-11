@@ -1,0 +1,177 @@
+{
+  "coding": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "score": 45,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5.5e-07,
+        "output": 3.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "reasoning": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "score": 45,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5.5e-07,
+        "output": 3.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "agentic": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "score": 45,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5.5e-07,
+        "output": 3.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "chat": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "score": 45,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5.5e-07,
+        "output": 3.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ],
+  "long_context": [
+    {
+      "id": "google/gemini-3-flash-preview",
+      "score": 46,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5e-07,
+        "output": 3e-06
+      },
+      "effort": {
+        "supported": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default": "medium",
+        "mandatory": false
+      }
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "score": 45,
+      "basis": "benchmark",
+      "price_per_token": {
+        "input": 5.5e-07,
+        "output": 3.5e-06
+      },
+      "effort": {
+        "supported": null,
+        "default": null,
+        "mandatory": false
+      }
+    }
+  ]
+}
