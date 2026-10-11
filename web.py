@@ -19,6 +19,7 @@ llm = ChatOpenAI(
 
 async def chat(message: str) -> str:
     response = await llm.ainvoke(message)
+    print("Token usage:", response.usage_metadata)
     return response.content
 
 
@@ -31,6 +32,7 @@ async def main():
         result = await chat(task)
         print(f"agent:{task}")
         print(f"ai: {result}")
+        
 
 
 if __name__ == "__main__":
